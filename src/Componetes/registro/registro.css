@@ -1,0 +1,74 @@
+
+ .mayor {
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .contenedor {
+  display: flex;
+  width: 1200px;
+  height: 700px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .imagen img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .formulario {
+    margin-left: 20px;
+    margin-top: 93px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    
+  }
+  
+  input {
+    margin: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin: 90px;
+    padding: 10px;
+    font-size: 20px;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color:rgb(21, 131, 69);
+  }
+  .dar{
+    background-color:  #45a049;
+  }
+
+.neymar{
+  width: 450px;
+  height: 450px;
+  margin-top: 70px;
+  margin-left: -50px;
+}
+.darbin{
+  margin: 40px;
+  
+}
